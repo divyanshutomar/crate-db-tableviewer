@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Table, Collapse, Icon, Typography } from "antd";
 
 const { Panel } = Collapse;
@@ -25,5 +26,9 @@ function TableList({ tables }) {
     </div>
   );
 }
+
+TableList.propTypes = {
+  tables: PropTypes.array.isRequired
+};
 
 export default TableList;
