@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
   `docker run -p "4200:4200" crate -Chttp.cors.enabled=true -Chttp.cors.allow-origin="*"`
 
+- Install react project dependencies using `yarn install`.
+
 - Start the react application with `yarn start`. This will start a development server on http://localhost:3000
 
 ## Seeding Sample Data
